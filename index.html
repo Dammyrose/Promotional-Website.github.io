@@ -25,7 +25,37 @@
 
     <!-- Warning about JavaScript, Cybersecurity Topic-->
     <noscript>Running JavaScript is not necessary in this HTML Page ... FYI: your feature to execute scripts is turned off  </noscript>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    </style>
 </head>
 
 <body style="background-color:#e5efff">
@@ -35,11 +65,17 @@
     <header><h3>Menu</h3></header>
     <section>
         <ul>
+            <div class="topnav">
+            <a class="active" href="#index.html">Home</a>
             <li><a href="childPages/What is Mental Health.html" target="_blank"> What is Mental Health</a>
             <li><a href="childPages/Why good mental health is important.html" target="_blank"> Why is good mental health important</a>
             <li><a href="childPages/Ways to improve your mental health.html" target="_blank"> Ways to improve your mental health</a>
             <li><a href="childPages/Mental Heath Advocates in Canada.html" target="_blank"> Mental Health Advocates in Canada</a>
-            <li><a href="childPages/About The Author.html" target="_blank"> About The Author</a>
+            <li><a href="childPages/About The Author.html" target="_blank"> About The Author</a>                 
+            <div style="padding-left:16px">
+                <h2>Top Navigation Example</h2>
+                  <p>Some content..</p>
+             </div>
         </ul>
     </section>
 
