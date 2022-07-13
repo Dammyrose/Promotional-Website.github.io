@@ -15,17 +15,17 @@ To do list for about me section
 - [x] Languages
 - [x] Hobbies
 - [] Music 
-- [] School 
+- [x] School 
 - [] Introvert?
 
 ------
 
 To do list for promotional website 
 
-- [] What are we passionate about?
-- [] Why is this so important 
-- [] Features - The people that advocate. 
-- [] Pictures
+- [x] What are we passionate about?
+- [-] Why is this so important 
+- [x] Features - The people that advocate. 
+- [x] Pictures
 
 
 ----------
